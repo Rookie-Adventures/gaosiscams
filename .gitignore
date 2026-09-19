@@ -1,0 +1,4 @@
+# 內部 / 系統檔案
+.codebuddy/
+.DS_Store
+Thumbs.db

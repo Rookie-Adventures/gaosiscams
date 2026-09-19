@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>反詐騙社群 | 搞死诈骗犯</title>
+  <meta name="description" content="匿名分享你的遭遇，警示他人、獲得公益協助，並找到同樣遭遇的人彼此抱團。" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="/" class="brand">
+        <span class="logo">🛡️</span>
+        <span>
+          <span class="name">搞死诈骗犯</span><br />
+          <span class="sub">ANTI-SCAM LEAGUE</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="選單"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">首頁</a></li>
+        <li><a href="/about/">關於我們</a></li>
+        <li><a href="/lawyers/">律師團隊</a></li>
+        <li><a href="/cases/">案例實錄</a></li>
+        <li><a href="/news/">最新動態</a></li>
+        <li><a href="/community/" class="active">反詐社群</a></li>
+        <li><a href="/#consult" class="btn btn-accent">免費諮詢</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">COMMUNITY</span>
+      <h1>反詐騙社群</h1>
+      <div class="en">SHARE · WARN · SUPPORT</div>
+      <p class="lead">匿名說出你的遭遇，警示他人，並找到同樣經歷的人彼此抱團。</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="container">
+      <div class="community-intro">
+        <p>這裡是一個安全的匿名空間。你可以毫無顧慮地分享被詐騙的經過——你的故事能提醒更多人避開陷阱；我們的公益志工會主動提供協助；而你也能在這裡找到「同溫層」，和同樣遭遇的人互相打氣、交換情報、一起面對。</p>
+      </div>
+
+      <form class="cpost-form" id="cform">
+        <div class="field-row">
+          <div class="field">
+            <label for="type">詐騙類型</label>
+            <select id="type" name="type">
+              <option>電信詐騙</option>
+              <option>網路投資</option>
+              <option>假冒客服</option>
+              <option>求職詐騙</option>
+              <option>假交友</option>
+              <option>其他</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="title">一句標題</label>
+            <input id="title" name="title" type="text" maxlength="60" placeholder="例如：假投資平台騙走我畢生積蓄" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="body">你的遭遇（匿名發布）</label>
+          <textarea id="body" name="body" maxlength="1000" placeholder="請描述發生經過、對方手法、你是如何發現的，以及想提醒大家的點……"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">📢 匿名發布</button>
+      </form>
+
+      <p class="seed-note">以下為社群成員匿名分享（示範資料，僅存於你的瀏覽器本地）。</p>
+      <div class="feed" id="feed"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h4>搞死诈骗犯</h4>
+        <p>致力於打擊跨國詐騙犯罪，匯聚全球執法機構、技術專家、法律顧問與公益志工，守護公眾財產安全。</p>
+        <div class="socials">
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://line.me" target="_blank" rel="noopener">LINE</a>
+        </div>
+      </div>
+      <div>
+        <h4>快速連結</h4>
+        <a href="/">首頁</a>
+        <a href="/lawyers/">律師團隊</a>
+        <a href="/cases/">案例實錄</a>
+        <a href="/community/">反詐社群</a>
+      </div>
+      <div>
+        <h4>服務</h4>
+        <a href="/#activity">案件舉報</a>
+        <a href="/#activity">資源庫</a>
+        <a href="/#consult">免費諮詢</a>
+      </div>
+      <div>
+        <h4>聯絡</h4>
+        <a href="mailto:help@gaosiscams.org">help@gaosiscams.org</a>
+        <a href="tel:+8860800090010">0800-090-010</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span class="year">2026</span> 搞死诈骗犯 Anti-Scam League. 版權所有。</span>
+      <span>本網站為示範複刻，內容僅供參考。</span>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js"></script>
+  <script src="/assets/community.js"></script>
+</body>
+</html>
